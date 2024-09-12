@@ -9,8 +9,8 @@ namespace AbstractFactory
 {
     public abstract class Database
     {
-        public abstract DbConnection Connection { get; set; }
+        public virtual DbConnection Connection { get; set; }
 
-        public abstract DbCommand Command { get; set; }
+        public virtual DbCommand Command { get; set; }
     }
 }
