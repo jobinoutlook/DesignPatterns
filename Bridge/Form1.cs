@@ -12,6 +12,7 @@ namespace Bridge
 {
     public partial class Form1 : Form
     {
+        private MessageController messageController = new MessageController();
         public Form1()
         {
             InitializeComponent();
@@ -19,7 +20,7 @@ namespace Bridge
 
         private void btnSendMessage_Click(object sender, EventArgs e)
         {
-            MessageController messageController = new MessageController();
+            
             if (radEmail.Checked)
             {
                 messageController.SetMessageType(MessageType.Email);
@@ -29,7 +30,7 @@ namespace Bridge
                 messageController.SetMessageType(MessageType.SMS);
             }
 
-            messageController.SendMessage("jobin", "Hello World");
+            messageController.SendMessage(txtTo.Text, txtMessage.Text);
         }
     }
 }

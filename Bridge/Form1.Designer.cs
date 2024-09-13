@@ -33,7 +33,7 @@
             this.radEmail = new System.Windows.Forms.RadioButton();
             this.btnSendMessage = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtTo = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtMessage = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
@@ -90,12 +90,12 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "To";
             // 
-            // textBox1
+            // txtTo
             // 
-            this.textBox1.Location = new System.Drawing.Point(203, 154);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(439, 26);
-            this.textBox1.TabIndex = 4;
+            this.txtTo.Location = new System.Drawing.Point(203, 154);
+            this.txtTo.Name = "txtTo";
+            this.txtTo.Size = new System.Drawing.Size(439, 26);
+            this.txtTo.TabIndex = 4;
             // 
             // label2
             // 
@@ -121,12 +121,12 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtMessage);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtTo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSendMessage);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Bridge Pattern";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -141,7 +141,7 @@
         private System.Windows.Forms.RadioButton radEmail;
         private System.Windows.Forms.Button btnSendMessage;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtTo;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtMessage;
     }
