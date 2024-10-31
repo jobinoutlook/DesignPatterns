@@ -9,10 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{AA6FDF09-6707-4B01-A056-CF5B08DE49F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{08325592-1187-4B77-985F-2BBEC4CE8C72}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{1C280AF3-2D61-4CD6-AEBE-779A08493140}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{AC42A8F1-A5BA-40C3-B52C-B60BE46E422E}"
 EndProject
 Global
@@ -33,14 +29,6 @@ Global
 		{AA6FDF09-6707-4B01-A056-CF5B08DE49F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA6FDF09-6707-4B01-A056-CF5B08DE49F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA6FDF09-6707-4B01-A056-CF5B08DE49F0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{08325592-1187-4B77-985F-2BBEC4CE8C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08325592-1187-4B77-985F-2BBEC4CE8C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08325592-1187-4B77-985F-2BBEC4CE8C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08325592-1187-4B77-985F-2BBEC4CE8C72}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C280AF3-2D61-4CD6-AEBE-779A08493140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C280AF3-2D61-4CD6-AEBE-779A08493140}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C280AF3-2D61-4CD6-AEBE-779A08493140}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C280AF3-2D61-4CD6-AEBE-779A08493140}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC42A8F1-A5BA-40C3-B52C-B60BE46E422E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC42A8F1-A5BA-40C3-B52C-B60BE46E422E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC42A8F1-A5BA-40C3-B52C-B60BE46E422E}.Release|Any CPU.ActiveCfg = Release|Any CPU
