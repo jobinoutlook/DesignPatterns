@@ -8,11 +8,11 @@ namespace SingletonPattern
 {
     public class Singleton
     {
-        private Singleton _singleton;
+        private static Singleton _singleton;
 
         private Singleton() { }
 
-        public Singleton GetSingleton()
+        public static Singleton GetSingleton()
         {
             if (_singleton == null)
             {
@@ -23,5 +23,9 @@ namespace SingletonPattern
             
         }
 
+        public void DoWork()
+        {
+            Console.WriteLine("Singleton instance is working.");
+        }
     }
 }
